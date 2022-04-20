@@ -1,10 +1,10 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
-import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 import Template from '../components/template'
 import { useEffect, useState } from 'react'
 import Questions from '../components/questions'
+import { NEXT_URL } from '../config/index'
 
 type Option = {
   text: string,
@@ -46,7 +46,7 @@ export default Home
 
 export async function getServerSideProps() {
 
-  const res = await fetch(`http://localhost:3000/api/questions`)
+  const res = await fetch(`${NEXT_URL}/api/questions`)
   const data = await res.json()
 
   return {
