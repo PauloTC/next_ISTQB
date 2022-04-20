@@ -22,6 +22,411 @@ export default function handler(
   res.status(200).json(
     [
       {
+        id:1,
+        title: '¿Qué es el conocimiento del dominio?',
+        options:[
+          {
+            id: 0,
+            letter: 'a',
+            text: 'Comprender el problema empresarial que resuelve el sistema.',
+          },
+          {
+            id: 1,
+            letter: 'b',
+            text: 'Comprensión de la tecnología que subyace al sistema.',
+          },
+          {
+            id: 2,
+            letter: 'c',
+            text: 'Comprender lo esencial de las pruebas de software',
+          },
+          {
+            id: 3,
+            letter: 'd',
+            text: 'Comprender la política organizacional',
+          }
+        ],
+        answer: 'a'
+      },
+      {
+        id:2,
+        title: '¿Cuál de las siguientes afirmaciones captura la diferencia entre el análisis estático y dinámico?',
+        options:[
+          {
+            id: 0,
+            letter: 'a',
+            text: 'En análisis estático, el sistema bajo prueba está funcionando; en el análisis dinámico no es',
+          },
+          {
+            id: 1,
+            letter: 'b',
+            text: 'En análisis dinámico, el sistema bajo prueba está funcionando; en análisis estático no es',
+          },
+          {
+            id: 2,
+            letter: 'c',
+            text: 'El análisis dinámico es efectivo para generar confianza en el sistema, el análisis estático no lo es.',
+          },
+          {
+            id: 3,
+            letter: 'd',
+            text: 'El análisis estático es efectivo para generar confianza en el sistema, el análisis dinámico no lo es.',
+          }
+        ],
+        answer: 'b'
+      },
+      {
+        id:3,
+        title: '¿Cuál de los siguientes da el ciclo de mejora de Deming, en el orden correcto?',
+        options:[
+          {
+            id: 0,
+            letter: 'a',
+            text: 'Planificar, Verificar, Hacer, Actuar.',
+          },
+          {
+            id: 1,
+            letter: 'b',
+            text: 'Planificar, Hacer, Verificar, Actuar.',
+          },
+          {
+            id: 2,
+            letter: 'c',
+            text: 'Planificar, Experimentar, Evaluar, Revisar.',
+          },
+          {
+            id: 3,
+            letter: 'd',
+            text: 'Planificar, Experimentar, Revisar, Evaluar.',
+          }
+        ],
+        answer: 'b'
+      },
+      {
+        id:4,
+        title: '¿Cuál de las siguientes entidades está mejor situada para priorizar los incidentes para la acción?',
+        options:[
+          {
+            id: 0,
+            letter: 'a',
+            text: 'Probador.',
+          },
+          {
+            id: 1,
+            letter: 'b',
+            text: 'Desarrollador',
+          },
+          {
+            id: 2,
+            letter: 'c',
+            text: 'Analista de negocios',
+          },
+          {
+            id: 3,
+            letter: 'd',
+            text: 'Reunión de clasificación',
+          }
+        ],
+        answer: 'd'
+      },
+      {
+        id:5,
+        title: '¿Cuál de las siguientes afirmaciones es verdadera?',
+        options:[
+          {
+            id: 0,
+            letter: 'a',
+            text: 'El estándar ISO/IEC 61508 no aborda la cobertura',
+          },
+          {
+            id: 1,
+            letter: 'b',
+            text: 'La norma ISO/IEC 61508 implica cobertura estructural',
+          },
+          {
+            id: 2,
+            letter: 'c',
+            text: 'La norma ISO/IEC 61508 exige una cobertura estructural, de requisitos y de riesgo del 100%',
+          },
+          {
+            id: 3,
+            letter: 'd',
+            text: 'El estándar ISO/EEC 61508 requiere cobertura estructural pero solo durante las pruebas unitarias',
+          }
+        ],
+        answer: 'b'
+      },
+      {
+        id:6,
+        title: 'En una revisión, ¿quién es el moderador?',
+        options:[
+          {
+            id: 0,
+            letter: 'a',
+            text: 'El principal responsable de la revisión',
+          },
+          {
+            id: 1,
+            letter: 'b',
+            text: 'Cualquier persona que realice una evaluación independiente para determinar el cumplimiento',
+          },
+          {
+            id: 2,
+            letter: 'c',
+            text: 'La persona que identifica y describe anomalías',
+          },
+          {
+            id: 3,
+            letter: 'd',
+            text: 'La persona que registra cada defecto mencionado',
+          }
+        ],
+        answer: 'a'
+      },
+      {
+        id:7,
+        title: '¿Cómo evalúa las herramientas el grupo del programa de estudios Avanzado?',
+        options:[
+          {
+            id: 0,
+            letter: 'a',
+            text: 'Para probadores o desarrolladores',
+          },
+          {
+            id: 1,
+            letter: 'b',
+            text: 'Por tareas de prueba',
+          },
+          {
+            id: 2,
+            letter: 'c',
+            text: 'Por rol de usuario',
+          },
+          {
+            id: 3,
+            letter: 'd',
+            text: 'Por costo',
+          }
+        ],
+        answer: 'c'
+      },
+      {
+        id:8,
+        title: 'En un régimen de documentación de prueba compatible con IEEE 829, ¿cuál de los siguientes es un documento IEEE 829 que describe las variaciones entre el plan de prueba y lo que realmente sucedió durante un período de ejecución de prueba?',
+        options:[
+          {
+            id: 0,
+            letter: 'a',
+            text: 'Registro de prueba',
+          },
+          {
+            id: 1,
+            letter: 'b',
+            text: 'Informe de incidente',
+          },
+          {
+            id: 2,
+            letter: 'c',
+            text: 'Informe de resumen de prueba',
+          },
+          {
+            id: 3,
+            letter: 'd',
+            text: 'Informe de transmisión del elemento de prueba',
+          }
+        ],
+        answer: 'c'
+      },
+      {
+        id:9,
+        title: 'IEEE 10440-1993 especifica un estándar para la notificación de defectos. ¿Cuál de los siguientes atributos debería estar en un informe de defectos según el plan de estudios ISTQB?',
+        options:[
+          {
+            id: 0,
+            letter: 'a',
+            text: 'Informe completo, conciso, exacto y objetivo.',
+          },
+          {
+            id: 1,
+            letter: 'b',
+            text: 'Competitivo y preciso. No tiene que ser conciso u objetivo.',
+          },
+          {
+            id: 2,
+            letter: 'c',
+            text: 'Completo y objetivo. No tiene que ser exacto.',
+          },
+          {
+            id: 3,
+            letter: 'd',
+            text: 'Preciso. No tiene que ser completo, conciso u objetivo.',
+          }
+        ],
+        answer: 'a'
+      },
+      {
+        id:10,
+        title: '¿Cuál de los siguientes NO está asociado con la motivación del probador?',
+        options:[
+          {
+            id: 0,
+            letter: 'a',
+            text: 'Reconocimiento',
+          },
+          {
+            id: 1,
+            letter: 'b',
+            text: 'Aprobación de la dirección',
+          },
+          {
+            id: 2,
+            letter: 'c',
+            text: 'Recompensas adecuadas',
+          },
+          {
+            id: 3,
+            letter: 'd',
+            text: 'Pruebas por pares',
+          }
+        ],
+        answer: 'd'
+      },
+      {
+        id:11,
+        title: '¿Qué es un riesgo de proyecto?',
+        options:[
+          {
+            id: 0,
+            letter: 'a',
+            text: 'Un riesgo directamente relacionado con el objeto de prueba',
+          },
+          {
+            id: 1,
+            letter: 'b',
+            text: 'La posibilidad de un resultado negativo o indeseable',
+          },
+          {
+            id: 2,
+            letter: 'c',
+            text: 'La identificación, análisis, priorización y control del riesgo',
+          },
+          {
+            id: 3,
+            letter: 'd',
+            text: 'Un riesgo relacionado con la gestión y el control del proyecto',
+          }
+        ],
+        answer: 'd'
+      },
+      {
+        id:12,
+        title: '¿Cuál de los siguientes coloca los niveles de TMM en el orden correcto?',
+        options:[
+          {
+            id: 0,
+            letter: 'a',
+            text: 'Inicial, Definición, Integración, Gestión y Medición, Optimización',
+          },
+          {
+            id: 1,
+            letter: 'b',
+            text: 'Inicial, Integración, Definición, Gestión y Medición, Optimización',
+          },
+          {
+            id: 2,
+            letter: 'c',
+            text: 'Inicial, Integración, Definición, Optimización, Gestión y Medición',
+          },
+          {
+            id: 3,
+            letter: 'd',
+            text: 'Inicial, Definición, Integración, Optimización, Gestión y Medida; alquilar',
+          }
+        ],
+        answer: 'a'
+      },
+      {
+        id:13,
+        title: '¿Qué es la planificación de pruebas?',
+        options:[
+          {
+            id: 0,
+            letter: 'a',
+            text: 'La actividad de establecer o actualizar los principios, el enfoque y los principales objetivos de la organización con respecto a las pruebas.',
+          },
+          {
+            id: 1,
+            letter: 'b',
+            text: 'La actividad de establecer o actualizar el alcance, el enfoque, los recursos y el cronograma de las actividades de prueba previstas',
+          },
+          {
+            id: 2,
+            letter: 'c',
+            text: 'La actividad de establecer o actualizar objetivos, insumos, acciones de prueba, resultados esperados y condiciones previas de ejecución',
+          },
+          {
+            id: 3,
+            letter: 'd',
+            text: 'La actividad de establecer o actualizar el método utilizado para realizar la ejecución de la prueba real, ya sea manual o automatizada.',
+          }
+        ],
+        answer: 'b'
+      },
+      {
+        id:14,
+        title: '¿Qué es Delphi de banda ancha?',
+        options:[
+          {
+            id: 0,
+            letter: 'a',
+            text: 'Una técnica de estimación de prueba basada en expertos que utiliza la sabiduría colectiva de los miembros del equipo.',
+          },
+          {
+            id: 1,
+            letter: 'b',
+            text: 'Pruebas basadas en un análisis de la estructura interna del componente o sistema.',
+          },
+          {
+            id: 2,
+            letter: 'c',
+            text: 'Un marco para describir las actividades del ciclo de vida del desarrollo de software desde la especificación de requisitos hasta el mantenimiento.',
+          },
+          {
+            id: 3,
+            letter: 'd',
+            text: 'El seguimiento de los requisitos a través de las capas de la documentación de desarrollo hasta los componentes.',
+          }
+        ],
+        answer: 'a'
+      },
+      {
+        id:15,
+        title: '¿Cuál de las siguientes afirmaciones es verdadera?',
+        options:[
+          {
+            id: 0,
+            letter: 'a',
+            text: 'El modelo de procesos de pruebas críticas funciona solo para organizaciones que utilizan los ciclos de vida del software del modelo V.',
+          },
+          {
+            id: 1,
+            letter: 'b',
+            text: 'El modelo de procesos de pruebas críticas funciona solo para organizaciones que utilizan ciclos de vida de software ágiles',
+          },
+          {
+            id: 2,
+            letter: 'c',
+            text: 'El modelo de procesos de pruebas críticas funciona solo para organizaciones que utilizan ciclos de vida de software evolutivos',
+          },
+          {
+            id: 3,
+            letter: 'd',
+            text: 'El modelo de procesos de pruebas críticas funciona para organizaciones que utilizan cualquier ciclo de vida de software',
+          }
+        ],
+        answer: 'd'
+      },
+      {
         id:141,
         title: 'Una evaluación formal de un producto de trabajo realizada por uno o más revisores independientes calificados para detectar defectos.',
         options:[
