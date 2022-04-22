@@ -5,6 +5,7 @@ import Template from '../components/template'
 import { useEffect, useState } from 'react'
 import Questions from '../components/questions'
 import { NEXT_URL } from '../config/index'
+import Welcome from '../components/welcome'
 
 type Option = {
   text: string,
@@ -38,6 +39,9 @@ const Home: NextPage = ({data} : any) => {
       <Template title="Exámen ISTBQ" >
         <Questions questions={questions} />
       </Template>
+      {/* <Template title="Bienvenida" >
+        <Welcome />
+      </Template> */}
     </div>
   )
 }

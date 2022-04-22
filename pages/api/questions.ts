@@ -427,6 +427,544 @@ export default function handler(
         answer: 'd'
       },
       {
+        id:16,
+        title: '¿Cuál de las siguientes es la mejor descripción de una aplicación cliente-servidor?',
+        options:[
+          {
+            id: 0,
+            letter: 'a',
+            text: 'La aplicación utiliza una interfaz web.',
+          },
+          {
+            id: 1,
+            letter: 'b',
+            text: 'Hay al menos una computadora que proporciona información a otras computadoras.',
+          },
+          {
+            id: 2,
+            letter: 'c',
+            text: 'Hay una computadora que proporciona información a terminales tontas.',
+          },
+          {
+            id: 3,
+            letter: 'd',
+            text: 'Las aplicaciones se ejecutan en una sola computadora.',
+          }
+        ],
+        answer: 'b'
+      },
+      {
+        id:17,
+        title: '¿Cuál de los siguientes describe mejor una diferencia entre un modelo de desarrollo secuencial y uno iterativo?',
+        options:[
+          {
+            id: 0,
+            letter: 'a',
+            text: 'Un modelo de desarrollo secuencial siempre llevará más tiempo que un modelo iterativo, para un proyecto de tamaño similar.',
+          },
+          {
+            id: 1,
+            letter: 'b',
+            text: 'Un modelo de desarrollo secuencial garantiza que al cliente le gustará el producto, mientras que el modelo iterativo no.',
+          },
+          {
+            id: 2,
+            letter: 'c',
+            text: 'Un modelo de desarrollo secuencial involucra a los usuarios en las pruebas principalmente al final del desarrollo, mientras que el modelo iterativo se concentra en la perspectiva del usuario durante todo el desarrollo.',
+          },
+          {
+            id: 3,
+            letter: 'd',
+            text: 'Un modelo de desarrollo secuencial requiere pruebas de regresión significativas, mientras que un modelo iterativo no.',
+          }
+        ],
+        answer: 'c'
+      },
+      {
+        id:18,
+        title: `¿Cuáles de los siguientes están incluidos en los planes de prueba?
+              I. Un cronograma de eventos.
+              II. El conjunto de casos de prueba a ejecutar.
+              III. Las funciones y responsabilidades de las partes interesadas.
+              IV. Los datos de prueba.
+              V. Los resultados de las pruebas e incidencias planteadas.`,
+        options:[
+          {
+            id: 0,
+            letter: 'a',
+            text: 'I y II',
+          },
+          {
+            id: 1,
+            letter: 'b',
+            text: 'II y III',
+          },
+          {
+            id: 2,
+            letter: 'c',
+            text: 'II, IV y V',
+          },
+          {
+            id: 3,
+            letter: 'd',
+            text: 'I y III',
+          }
+        ],
+        answer: 'd'
+      },
+      {
+        id:19,
+        title: '¿Cuál de los siguientes sería un criterio de entrada apropiado de las pruebas del sistema a las pruebas de aceptación?',
+        options:[
+          {
+            id: 0,
+            letter: 'a',
+            text: '100 por ciento de cobertura de especificación funcional.',
+          },
+          {
+            id: 1,
+            letter: 'b',
+            text: 'Cobertura del 100 por ciento de los requisitos del negocio.',
+          },
+          {
+            id: 2,
+            letter: 'c',
+            text: 'Cobertura del estado de cuenta del 100 por ciento.',
+          },
+          {
+            id: 3,
+            letter: 'd',
+            text: '100 por ciento de cobertura de ruta.',
+          }
+        ],
+        answer: 'a'
+      },
+      {
+        id:20,
+        title: '¿Cuál de las siguientes daría la mejor medida de progreso contra la calidad del producto?',
+        options:[
+          {
+            id: 0,
+            letter: 'a',
+            text: 'El número de pruebas realizadas frente a las previstas.',
+          },
+          {
+            id: 1,
+            letter: 'b',
+            text: 'El tiempo de respuesta por defectos.',
+          },
+          {
+            id: 2,
+            letter: 'c',
+            text: 'El número de defectos de alta prioridad pendientes.',
+          },
+          {
+            id: 3,
+            letter: 'd',
+            text: 'El tiempo necesario para ejecutar cada prueba.',
+          }
+        ],
+        answer: 'c'
+      },
+      {
+        id:21,
+        title: `¿En qué orden se debe crear la siguiente documentación de gestión de pruebas?
+        I. Plan de prueba del proyecto
+        II. Estrategia de prueba
+        III. Política de prueba
+        IV. Plan de prueba de nivel`,
+        options:[
+          {
+            id: 0,
+            letter: 'a',
+            text: 'I, II, III, IV',
+          },
+          {
+            id: 1,
+            letter: 'b',
+            text: 'II, I, III, IV',
+          },
+          {
+            id: 2,
+            letter: 'c',
+            text: 'III, II, I, IV',
+          },
+          {
+            id: 3,
+            letter: 'd',
+            text: 'I, IV, III, II',
+          }
+        ],
+        answer: 'c'
+      },
+      {
+        id:22,
+        title: `¿Cuál de las siguientes es una declaración de política de prueba?`,
+        options:[
+          {
+            id: 0,
+            letter: 'a',
+            text: 'Se requerirá ToolX dentro del conjunto de herramientas eficientes para este proyecto.',
+          },
+          {
+            id: 1,
+            letter: 'b',
+            text: 'Los proyectos de toda la empresa utilizarán el conjunto de herramientas eficientes.',
+          },
+          {
+            id: 2,
+            letter: 'c',
+            text: 'Se requerirá capacitación en ToolX para el personal de este proyecto.',
+          },
+          {
+            id: 3,
+            letter: 'd',
+            text: 'Se requerirá ToolX por un período de un mes.',
+          }
+        ],
+        answer: 'b'
+      },
+      {
+        id:23,
+        title: `¿Cuál de los siguientes podría formar parte de los criterios de entrada en las pruebas del sistema?
+          I. Cobertura de decisión del 100 por ciento de todos los cálculos de tarifas.
+          II. Cobertura del 100% de las especificaciones funcionales de todos los tipos de hogares.
+          III. Se destacan los defectos sobresalientes en las pruebas de integración.
+          IV. Informe de resumen de prueba para la prueba del sistema producido.
+          V. Requisitos de negocio firmados.
+        
+        `,
+        options:[
+          {
+            id: 0,
+            letter: 'a',
+            text: 'I, II y III',
+          },
+          {
+            id: 1,
+            letter: 'b',
+            text: 'II, III y IV',
+          },
+          {
+            id: 2,
+            letter: 'c',
+            text: 'I y III',
+          },
+          {
+            id: 3,
+            letter: 'd',
+            text: 'I, III y IV',
+          }
+        ],
+        answer: 'c'
+      },
+      {
+        id:24,
+        title: `¿Cuál de los siguientes formaría parte de los criterios de ingreso a las pruebas unitarias (que serán seguidas por las pruebas de integración)?
+          I. Cobertura de decisión del 100 por ciento de todos los cálculos de tarifas.
+          II. Especificación del programa aprobado.
+          III. Especificación técnica firmada.
+          IV. Cobertura del 100% de las especificaciones del programa.
+          V. Código compilado.`,
+        options:[
+          {
+            id: 0,
+            letter: 'a',
+            text: 'I, III y V',
+          },
+          {
+            id: 1,
+            letter: 'b',
+            text: 'II y V',
+          },
+          {
+            id: 2,
+            letter: 'c',
+            text: 'I, II y III',
+          },
+          {
+            id: 3,
+            letter: 'd',
+            text: 'III, IV y V',
+          }
+        ],
+        answer: 'b'
+      },
+      {
+        id:25,
+        title: `Un banco importante recientemente subcontrató todo su desarrollo de software en un esfuerzo por reducir sus costos fijos. El nuevo proveedor será responsable de todos los nuevos desarrollos, así como de las mejoras a los existentes.
+
+        El banco ha conservado su propio equipo de gestión para sus proyectos. Habrá un administrador de proyectos interno, un administrador de desarrollo y un administrador de pruebas para cada proyecto. Algunos miembros del personal pueden trabajar en más de un proyecto, según el tamaño total.
+        
+        Se está realizando una mejora para permitir que los clientes existentes autoricen sus propios préstamos en línea, de 1k a 10k respondiendo una serie de preguntas.
+        
+        ¿Cuál de los siguientes describe mejor la utilidad de una política de prueba en este escenario?`,
+        options:[
+          {
+            id: 0,
+            letter: 'a',
+            text: 'La política de prueba garantizará que todos los miembros de ambos conjuntos de equipos entiendan cuáles son sus roles y responsabilidades.',
+          },
+          {
+            id: 1,
+            letter: 'b',
+            text: 'La política de pruebas identificará los riesgos de cada proyecto y garantizará que todo el personal sepa cómo enfrentarlos.',
+          },
+          {
+            id: 2,
+            letter: 'c',
+            text: 'La política de prueba asegurará que todos los miembros del equipo entiendan lo que requiere el banco para crear productos de alta calidad.',
+          },
+          {
+            id: 3,
+            letter: 'd',
+            text: 'La política de pruebas recordará al personal la utilidad de usar su propio conocimiento para realizar las pruebas.',
+          }
+        ],
+        answer: 'c'
+      },
+      {
+        id:26,
+        title: `La tripulación de una fuerza de defensa aérea nacional ha solicitado cambios en el software de aviación existente que proporciona información a bordo sobre el entorno de combate. La fuerza aérea se encuentra actualmente comprometida en una misión de mantenimiento de la paz en otro país y se ha enfrentado a amenazas inesperadas.
+                El ciclo de vida de desarrollo es el modelo V. La casa de software necesita cambiar su proceso de gestión de pruebas para garantizar la entrega en el momento y la calidad adecuados.
+
+                Los cambios de software están llegando a medida que las tripulaciones aéreas los solicitan, como resultado de sus enfrentamientos con fuerzas hostiles.
+                
+                La tripulación ha solicitado que los cambios se realicen lo más rápido posible. El director del proyecto ha decidido revisar el proceso de gestión de pruebas. Los cambios vendrán como pequeñas solicitudes de cambio. El equipo ha trabajado en el proyecto durante más de 25 años, con poca rotación de personal.
+                
+                El director del proyecto ha pedido su consejo sobre la estimación de la prueba. ¿Cuál de los siguientes recomendaría?
+        
+        `,
+        options:[
+          {
+            id: 0,
+            letter: 'a',
+            text: 'Realice un análisis de puntos de prueba en cada definición de solicitud de cambio.',
+          },
+          {
+            id: 1,
+            letter: 'b',
+            text: 'Analizar datos de proyectos anteriores para encontrar cambios similares a cada solicitud de cambio y usar esto para estimar el tiempo requerido.',
+          },
+          {
+            id: 2,
+            letter: 'c',
+            text: 'Pregunte a los desarrolladores cuánto tiempo llevará implementar el cambio y asigne el 50 por ciento de esto a las pruebas.',
+          },
+          {
+            id: 3,
+            letter: 'd',
+            text: 'Pregúntele al probador que realizará la prueba para una mejor suposición.',
+          }
+        ],
+        answer: 'd'
+      },
+      {
+        id:27,
+        title: `¿Cuál de los siguientes es más probable que se encuentre en una revisión de una especificación funcional?`,
+        options:[
+          {
+            id: 0,
+            letter: 'a',
+            text: 'Valores límite indefinidos',
+          },
+          {
+            id: 1,
+            letter: 'b',
+            text: 'Código inalcanzable',
+          },
+          {
+            id: 2,
+            letter: 'c',
+            text: 'Una falla en el sistema',
+          },
+          {
+            id: 3,
+            letter: 'd',
+            text: 'Una pérdida de memoria',
+          }
+        ],
+        answer: 'a'
+      },
+      {
+        id:28,
+        title: `¿Cuál de los siguientes tiene el aprendizaje como uno de sus propósitos principales?`,
+        options:[
+          {
+            id: 0,
+            letter: 'a',
+            text: 'Tutorial.',
+          },
+          {
+            id: 1,
+            letter: 'b',
+            text: 'Revisión informal.',
+          },
+          {
+            id: 2,
+            letter: 'c',
+            text: 'Revisión técnica.',
+          },
+          {
+            id: 3,
+            letter: 'd',
+            text: 'Inspección.',
+          }
+        ],
+        answer: 'a'
+      },
+      {
+        id:29,
+        title: `¿Cuál de los siguientes siempre hace uso de criterios de entrada y salida?`,
+        options:[
+          {
+            id: 0,
+            letter: 'a',
+            text: 'Tutorial.',
+          },
+          {
+            id: 1,
+            letter: 'b',
+            text: 'Revisión informal.',
+          },
+          {
+            id: 2,
+            letter: 'c',
+            text: 'Revisión técnica.',
+          },
+          {
+            id: 3,
+            letter: 'd',
+            text: 'Inspección.',
+          }
+        ],
+        answer: 'd'
+      },
+      {
+        id:30,
+        title: `
+          Se está creando un nuevo sistema. Se está utilizando una forma de desarrollo iterativo, el desarrollo Agile. El proceso de captura de requisitos es típico de los proyectos de desarrollo iterativo en los que hay requisitos limitados disponibles. La funcionalidad para la primera iteración se ha esbozado, pero existe una necesidad real de que se entregue un sistema de calidad a tiempo.
+          
+          ¿Cuál de los siguientes proporcionaría el mejor razonamiento para usar revisiones guiadas en el primer conjunto de requisitos?`,
+        options:[
+          {
+            id: 0,
+            letter: 'a',
+            text: 'Se asegurarán de que los gerentes entiendan lo que se entregará para cada iteración, para que puedan proporcionar contingencia.',
+          },
+          {
+            id: 1,
+            letter: 'b',
+            text: 'Dado el interés en la calidad, los requisitos se pueden revisar en detalle para garantizar que los desarrolladores comprendan lo que se requiere.',
+          },
+          {
+            id: 2,
+            letter: 'c',
+            text: 'Se pueden aprender lecciones desde la primera iteración, lo que debería ayudar a mejorar el rendimiento para iteraciones posteriores.',
+          },
+          {
+            id: 3,
+            letter: 'd',
+            text: 'Permitirán que una amplia gama de partes interesadas entienda lo que se construirá y probará para la primera iteración.',
+          }
+        ],
+        answer: 'd'
+      },
+      {
+        id:31,
+        title: `Es inusual encontrar que el proceso completo de inspección se sigue de forma rutinaria en proyectos de desarrollo iterativo, por lo general son demasiado costosos en tiempo y dinero.
+        
+        ¿Qué parte del proceso de inspección podríamos utilizar aquí, con el mejor efecto?`,
+        options:[
+          {
+            id: 0,
+            letter: 'a',
+            text: 'Capacitar a los moderadores de las revisiones técnicas para que puedan administrar mejor el proceso.',
+          },
+          {
+            id: 1,
+            letter: 'b',
+            text: 'Inspeccionar los requisitos de cada iteración para mejorar la calidad general del sistema.',
+          },
+          {
+            id: 2,
+            letter: 'c',
+            text: 'Recopile métricas al final de cada iteración sobre los defectos encontrados por gravedad y prioridad, y utilícelas para planificar la siguiente iteración.',
+          },
+          {
+            id: 3,
+            letter: 'd',
+            text: 'Incluir a los gerentes en las revisiones para que puedan apreciar mejor los costos involucrados y brindar más contingencia en caso de que las cosas salgan mal.',
+          }
+        ],
+        answer: 'a'
+      },
+      {
+        id:32,
+        title: `Un supermercado importante está actualizando su tienda en línea en respuesta a cambios recientes en el gasto de los consumidores. Ha reducido su gama de productos premium ofreciendo menos carnes y verduras ecológicas y menos frutas y verduras exóticas. Ha aumentado su gama de productos amigables al aumentar sus productos de origen local, y su gama de comercio justo al incluir más productos del extranjero donde los productores tienen asegurado un precio justo por sus productos.
+        
+        El diseño frontal está cambiando para permitir que los clientes seleccionen sus preferencias de compra, que son:
+        # Amigable con el medio ambiente;
+        # familiar;
+        # justo para todos.
+        
+        A continuación, se ofrecerán a los clientes productos pertenecientes a cada una de estas categorías. Los cambios en el front-end se consideran simples, en comparación con los cambios necesarios en el back-end, para proporcionar a cada grupo de clientes las opciones correctas de productos.
+
+        El ciclo de vida del desarrollo es el desarrollo ágil. Uno de los desarrolladores ha comenzado a crear un diseño de alto nivel para ayudar a aclarar las categorías de productos. Ha decidido realizar una revisión del diseño de alto nivel.
+
+        ¿Cuál de los siguientes tipos de revisión sería adecuado para el diseño de alto nivel, según el razonamiento dado?`,
+        options:[
+          {
+            id: 0,
+            letter: 'a',
+            text: 'Una revisión guiada por el diseño, para que aquellos que construyen el front-end puedan entender cómo su software interactuará con el back-end.',
+          },
+          {
+            id: 1,
+            letter: 'b',
+            text: 'Una revisión técnica del diseño para que cada categoría de producto pueda definirse estrictamente antes de construir la funcionalidad.',
+          },
+          {
+            id: 2,
+            letter: 'c',
+            text: 'Una inspección del diseño para ver si se puede reutilizar fácilmente para iteraciones posteriores.',
+          },
+          {
+            id: 3,
+            letter: 'd',
+            text: 'Una revisión por parte de la dirección del diseño para garantizar que se ajuste al propósito.',
+          }
+        ],
+        answer: 'a'
+      },
+      {
+        id:33,
+        title: `¿Cuál de los siguientes NO es un desafío con la subcontratación?`,
+        options:[
+          {
+            id: 0,
+            letter: 'a',
+            text: 'Diferencias culturales',
+          },
+          {
+            id: 1,
+            letter: 'b',
+            text: 'Calidad',
+          },
+          {
+            id: 2,
+            letter: 'c',
+            text: 'Rotación de empleados',
+          },
+          {
+            id: 3,
+            letter: 'd',
+            text: 'Bajo costo',
+          }
+        ],
+        answer: 'd'
+      },
+      {
         id:141,
         title: 'Una evaluación formal de un producto de trabajo realizada por uno o más revisores independientes calificados para detectar defectos.',
         options:[
@@ -568,7 +1106,7 @@ export default function handler(
             text: 'Pruebas de integración de componentes',
           }
         ],
-        answer: 'c'
+        answer: 'b'
       },
       {
         id:146,
