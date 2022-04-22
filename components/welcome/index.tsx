@@ -14,9 +14,6 @@ const Welcome = () => {
     setAge(event.target.value as string);
   };
 
-  const handleSubmit = () => {
-    console.log('submit')
-  }
 
   return (
     <>
@@ -36,7 +33,7 @@ const Welcome = () => {
           </Select>
         </FormControl>
         <Box width='100%' my={3} >
-          <Button fullWidth size='large' onClick={handleSubmit}  variant="contained">Continuar</Button>
+          <Button fullWidth size='large' variant="contained">Continuar</Button>
         </Box> 
       </Box>
     </>
